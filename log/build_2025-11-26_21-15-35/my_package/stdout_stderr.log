@@ -1,0 +1,12 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/shooter_node.dir/src/shooter_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable shooter_node[0m
+[ 50%] Built target shooter_node
+[35m[1mConsolidate compiler generated dependencies of target vision_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o[0m
+[01m[K/home/zyb/桌面/新建文件夹/teamX_challenge/src/my_package/src/vision_node.cpp:12:10:[m[K [01;31m[Kfatal error: [m[Kreferee_pkg/msg/multi_object.hpp: 没有那个文件或目录
+   12 | #include [01;31m[K"referee_pkg/msg/multi_object.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:76：CMakeFiles/vision_node.dir/src/vision_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/vision_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

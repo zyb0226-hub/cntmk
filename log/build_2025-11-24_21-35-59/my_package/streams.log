@@ -1,0 +1,32 @@
+[0.055s] Invoking command in '/home/zyb/桌面/新建文件夹/teamX_challenge/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyb/桌面/新建文件夹/teamX_challenge/build/my_package -- -j4 -l4
+[0.332s] [35m[1mConsolidate compiler generated dependencies of target vision_node[0m
+[0.352s] [ 50%] Built target shooter_node
+[0.397s] [100%] Built target vision_node
+[0.431s] Invoked command in '/home/zyb/桌面/新建文件夹/teamX_challenge/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyb/桌面/新建文件夹/teamX_challenge/build/my_package -- -j4 -l4
+[0.460s] Invoking command in '/home/zyb/桌面/新建文件夹/teamX_challenge/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyb/桌面/新建文件夹/teamX_challenge/build/my_package
+[0.481s] -- Install configuration: ""
+[0.487s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/lib/my_package/shooter_node
+[0.490s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/lib/my_package/vision_node
+[0.491s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/launch
+[0.491s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/launch/shooter_launch.py
+[0.491s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/launch/vision_launch.py
+[0.493s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/config
+[0.493s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/config/params.yaml
+[0.493s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[0.493s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[0.493s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[0.493s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[0.493s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/environment/path.sh
+[0.493s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/environment/path.dsv
+[0.493s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/local_setup.bash
+[0.494s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/local_setup.sh
+[0.494s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/local_setup.zsh
+[0.494s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/local_setup.dsv
+[0.494s] -- Installing: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/package.dsv
+[0.494s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/ament_index/resource_index/packages/my_package
+[0.495s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.495s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.495s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[0.495s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[0.495s] -- Up-to-date: /home/zyb/桌面/新建文件夹/teamX_challenge/install/my_package/share/my_package/package.xml
+[0.500s] Invoked command in '/home/zyb/桌面/新建文件夹/teamX_challenge/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyb/桌面/新建文件夹/teamX_challenge/build/my_package
