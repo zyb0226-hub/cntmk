@@ -1,1 +1,888 @@
+ErrorResults 
+  stamp : 2025-11-29T16:54:55Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:55Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:56Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.6304 , 29.6447 , 4.61794]
+       - orientation : [0.707107 , 0.707107 , -4.63742e-07 , 3.38603e-07]
+  RingCirclePositionError : 12.1787
+  position_error : 0.0523806
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:56Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-10.0034 , 18.9726 , 2.95548]
+       - orientation : [0.707107 , 0.707107 , -4.63742e-07 , 3.38603e-07]
+  RingCirclePositionError : 0
+  position_error : 0.0523806
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:56Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:56Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:56Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.6304 , 29.6447 , 4.61794]
+       - orientation : [0.707107 , 0.707107 , -4.63742e-07 , 3.38603e-07]
+  RingCirclePositionError : 12.1787
+  position_error : 0.0523806
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:56Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-10.0034 , 18.9726 , 2.95548]
+       - orientation : [0.707107 , 0.707107 , -4.63742e-07 , 3.38603e-07]
+  RingCirclePositionError : 0
+  position_error : 0.0523806
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:56Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.98701 , 18.9415 , 2.95063]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 7.78155
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:56Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-6.39169 , 12.1225 , 1.8884]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 0
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:57Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.98701 , 18.9415 , 2.95063]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 7.78155
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:57Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-6.39169 , 12.1225 , 1.8884]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 0
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:57Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:57Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:57Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.98701 , 18.9415 , 2.95063]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 7.78155
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:57Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-6.39169 , 12.1225 , 1.8884]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 0
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:57Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.98701 , 18.9415 , 2.95063]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 7.78155
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:57Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-6.39169 , 12.1225 , 1.8884]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 0
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:57Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.98701 , 18.9415 , 2.95063]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 7.78155
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:57Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-6.39169 , 12.1225 , 1.8884]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 0
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:58Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:58Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:58Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:58Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:58Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.98701 , 18.9415 , 2.95063]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 7.78155
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:58Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-6.39169 , 12.1225 , 1.8884]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 0
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:58Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:58Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:58Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.98701 , 18.9415 , 2.95063]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 7.78155
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:58Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-6.39169 , 12.1225 , 1.8884]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 0
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:59Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:59Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:59Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.6304 , 29.6447 , 4.61794]
+       - orientation : [0.707107 , 0.707107 , -4.63742e-07 , 3.38603e-07]
+  RingCirclePositionError : 12.1787
+  position_error : 0.0523806
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:59Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-10.0034 , 18.9726 , 2.95548]
+       - orientation : [0.707107 , 0.707107 , -4.63742e-07 , 3.38603e-07]
+  RingCirclePositionError : 0
+  position_error : 0.0523806
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:59Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.6304 , 29.6447 , 4.61794]
+       - orientation : [0.707107 , 0.707107 , -4.63742e-07 , 3.38603e-07]
+  RingCirclePositionError : 12.1787
+  position_error : 0.0523806
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:59Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-10.0034 , 18.9726 , 2.95548]
+       - orientation : [0.707107 , 0.707107 , -4.63742e-07 , 3.38603e-07]
+  RingCirclePositionError : 0
+  position_error : 0.0523806
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:59Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.6304 , 29.6447 , 4.61794]
+       - orientation : [0.707107 , 0.707107 , -4.63742e-07 , 3.38603e-07]
+  RingCirclePositionError : 12.1787
+  position_error : 0.0523806
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:54:59Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-10.0034 , 18.9726 , 2.95548]
+       - orientation : [0.707107 , 0.707107 , -4.63742e-07 , 3.38603e-07]
+  RingCirclePositionError : 0
+  position_error : 0.0523806
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:00Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.98701 , 18.9415 , 2.95063]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 7.78155
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:00Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-6.39169 , 12.1225 , 1.8884]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 0
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:00Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:00Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:00Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.98701 , 18.9415 , 2.95063]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 7.78155
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:00Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-6.39169 , 12.1225 , 1.8884]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 0
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:00Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.98701 , 18.9415 , 2.95063]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 7.78155
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:00Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-6.39169 , 12.1225 , 1.8884]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 0
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:00Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:00Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:01Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:01Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:01Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.98701 , 18.9415 , 2.95063]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 7.78155
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:01Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-6.39169 , 12.1225 , 1.8884]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 0
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:01Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:01Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:01Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:01Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:01Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.6304 , 29.6447 , 4.61794]
+       - orientation : [0.707107 , 0.707107 , -4.63742e-07 , 3.38603e-07]
+  RingCirclePositionError : 12.1787
+  position_error : 0.0523806
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:01Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-10.0034 , 18.9726 , 2.95548]
+       - orientation : [0.707107 , 0.707107 , -4.63742e-07 , 3.38603e-07]
+  RingCirclePositionError : 0
+  position_error : 0.0523806
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:02Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.98701 , 18.9415 , 2.95063]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 7.78155
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:02Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-6.39169 , 12.1225 , 1.8884]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 0
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:02Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:02Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:02Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.98701 , 18.9415 , 2.95063]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 7.78155
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:02Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-6.39169 , 12.1225 , 1.8884]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 0
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:02Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.6304 , 29.6447 , 4.61794]
+       - orientation : [0.707107 , 0.707107 , -4.63742e-07 , 3.38603e-07]
+  RingCirclePositionError : 12.1787
+  position_error : 0.0523806
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:02Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-10.0034 , 18.9726 , 2.95548]
+       - orientation : [0.707107 , 0.707107 , -4.63742e-07 , 3.38603e-07]
+  RingCirclePositionError : 0
+  position_error : 0.0523806
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:03Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:03Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:03Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.98701 , 18.9415 , 2.95063]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 7.78155
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:03Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-6.39169 , 12.1225 , 1.8884]
+       - orientation : [0.707107 , 0.707107 , -3.4275e-08 , 2.43253e-08]
+  RingCirclePositionError : 0
+  position_error : 0.0776684
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:03Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:03Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:03Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-15.5505 , 29.4932 , 4.59433]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 12.1164
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
+
+ ErrorResults 
+  stamp : 2025-11-29T16:55:03Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-9.9523 , 18.8756 , 2.94037]
+       - orientation : [0.707107 , 0.707107 , 3.16668e-07 , -2.08206e-07]
+  RingCirclePositionError : 0
+  position_error : 0.145938
+  orientation_error : 0
+  found_in_gazebo : 1
 
