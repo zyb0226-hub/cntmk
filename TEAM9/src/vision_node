@@ -1,1 +1,191 @@
+#include "rclcpp/rclcpp.hpp"
+#include "sensor_msgs/msg/image.hpp"
+#include "referee_pkg/msg/multi_object.hpp"
+#include "referee_pkg/msg/object.hpp"
+#include "cv_bridge/cv_bridge.h"
+#include "opencv2/opencv.hpp"
+#include <vector>
+
+class VisionNode : public rclcpp::Node
+{
+public:
+    VisionNode() : Node("ring_vision_node")
+    {
+        setup_parameters();
+        setup_communications();
+        RCLCPP_INFO(this->get_logger(), "圆环检测节点启动");
+    }
+
+private:
+    rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr image_sub_;
+    rclcpp::Publisher<referee_pkg::msg::MultiObject>::SharedPtr detection_pub_;
+    
+    int min_radius_ = 20;
+    int max_radius_ = 100;
+
+    void setup_parameters()
+    {
+    // 声明参数
+    this->declare_parameter<int>("vision.min_radius", 20);
+    this->declare_parameter<int>("vision.max_radius", 100);
+    
+    // 获取参数值
+    min_radius_ = this->get_parameter("vision.min_radius").as_int();
+    max_radius_ = this->get_parameter("vision.max_radius").as_int();
+    }
+
+    void setup_communications()
+    {
+        // 订阅相机图像
+        image_sub_ = this->create_subscription<sensor_msgs::msg::Image>(
+            "/camera/image_raw", 10,
+            std::bind(&VisionNode::image_callback, this, std::placeholders::_1));
+
+        // 发布检测结果
+        detection_pub_ = this->create_publisher<referee_pkg::msg::MultiObject>(
+            "/vision/target", 10);
+    }
+
+    void image_callback(const sensor_msgs::msg::Image::SharedPtr msg)
+    {
+        try {
+            // 转换图像格式
+            cv::Mat frame = cv_bridge::toCvCopy(msg, "bgr8")->image;
+            
+            // 检测圆环
+            auto circles = detect_circles(frame);
+            
+            // 发布检测结果
+            publish_detections(circles, msg->header);
+            
+            RCLCPP_DEBUG(this->get_logger(), "检测到 %zu 个圆环", circles.size());
+            
+        } catch (const std::exception& e) {
+            RCLCPP_ERROR(this->get_logger(), "图像处理错误: %s", e.what());
+        }
+    }
+
+
+    std::vector<cv::Vec3f> detect_circles(const cv::Mat& frame)
+    {
+	std::vector<cv::Vec3f> circles;
+	    
+	// 转换为灰度图
+	cv::Mat gray;
+	cv::cvtColor(frame, gray, cv::COLOR_BGR2GRAY);
+	    
+	// 高斯模糊
+	cv::GaussianBlur(gray, gray, cv::Size(3, 3), 0);
+	    
+	// 霍夫圆检测
+	cv::HoughCircles(gray, circles, cv::HOUGH_GRADIENT, 1.2,
+		        gray.rows/4,  // 最小圆心间距
+		        90,          // 边缘检测阈值
+		        30,           // 累加器阈值
+		        min_radius_,  // 最小半径
+		        max_radius_); // 最大半径
+	    
+	return circles;
+    }
+
+    // 创建圆环Object的辅助函数
+    void create_circle_object(referee_pkg::msg::MultiObject& multi_obj, 
+                            const cv::Vec3f& circle, const std::string& target_type)
+    {
+        referee_pkg::msg::Object obj;
+        obj.target_type = target_type;
+        
+        float cx = circle[0], cy = circle[1], r = circle[2];
+        
+        // 四个角点：左下起始，逆时针方向
+        obj.corners.push_back(create_point(cx - r, cy + r)); // 左下
+        obj.corners.push_back(create_point(cx + r, cy + r)); // 右下  
+        obj.corners.push_back(create_point(cx + r, cy - r)); // 右上
+        obj.corners.push_back(create_point(cx - r, cy - r)); // 左上
+        
+        multi_obj.objects.push_back(obj);
+    }
+
+    // 创建geometry_msgs::Point的辅助函数
+    geometry_msgs::msg::Point create_point(float x, float y)
+    {
+        geometry_msgs::msg::Point p;
+        p.x = x;
+        p.y = y;
+        p.z = 0.0;
+        return p;
+    }
+
+    // 显示函数
+    void display(const cv::Mat& frame, const std::vector<cv::Vec3f>& circles)
+    {
+        cv::Mat display = frame.clone();
+        
+        for (size_t i = 0; i < circles.size(); i++) {
+            cv::Point center(cvRound(circles[i][0]), cvRound(circles[i][1]));
+            int radius = cvRound(circles[i][2]);
+            
+            // 绘制圆
+            cv::circle(display, center, radius, cv::Scalar(0, 255, 0), 2);
+            // 绘制圆心
+            cv::circle(display, center, 3, cv::Scalar(0, 0, 255), -1);
+            // 显示半径
+            std::string label = "R:" + std::to_string(radius);
+            cv::putText(display, label, cv::Point(center.x + 10, center.y), 
+                    cv::FONT_HERSHEY_SIMPLEX, 0.5, cv::Scalar(255, 255, 255), 1);
+        }
+        
+        cv::imshow("Ring Detection", display);
+        cv::waitKey(1);
+    }
+
+    void publish_detections(const std::vector<cv::Vec3f>& circles, 
+                        const std_msgs::msg::Header& header)
+    {
+        referee_pkg::msg::MultiObject multi_obj;
+        multi_obj.header = header;
+        multi_obj.header.frame_id = "camera_frame";
+        
+        // 确保发布2个Object（外圆和内圆）
+        if (circles.size() >= 2) {
+            // 按半径排序，大的为外圆，小的为内圆
+            std::vector<cv::Vec3f> sorted_circles = circles;
+            std::sort(sorted_circles.begin(), sorted_circles.end(),
+                    [](const cv::Vec3f& a, const cv::Vec3f& b) { return a[2] > b[2]; });
+            
+            // 外圆（半径大的）
+            create_circle_object(multi_obj, sorted_circles[0], "Ring_red");
+            // 内圆（半径小的）
+            create_circle_object(multi_obj, sorted_circles[1], "Ring_red");
+            
+            multi_obj.num_objects = 2;
+            RCLCPP_INFO(this->get_logger(), "发布内外圆检测结果");
+            
+        } 
+        else if (circles.size() == 1) {
+            // 如果只检测到一个圆，发布两次
+            create_circle_object(multi_obj, circles[0], "Ring_red");
+            create_circle_object(multi_obj, circles[0], "Ring_red");
+            multi_obj.num_objects = 2;
+            RCLCPP_WARN(this->get_logger(), "只检测到一个圆，发布相同圆作为内外圆");
+            
+        } 
+        else {
+            // 没有检测到圆
+            multi_obj.num_objects = 0;
+            RCLCPP_WARN(this->get_logger(), "未检测到圆环");
+        }
+        
+        detection_pub_->publish(multi_obj);
+    }
+};
+
+int main(int argc, char** argv)
+{
+    rclcpp::init(argc, argv);
+    auto node = std::make_shared<VisionNode>();
+    rclcpp::spin(node);
+    rclcpp::shutdown();
+    return 0;
+}
 
