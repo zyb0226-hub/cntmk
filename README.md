@@ -1,4 +1,5 @@
-# 圆环检测视觉节点 (Ring Vision Node)
+# 圆环检测视觉节点 (Vision Node)
+原来这个功能包名不叫TEAM9而叫my_package，所以后面一些编译运行的功能包名都是my_package
 
 ## 技术报告语雀文档
 https://www.yuque.com/ruizhidehoutou/lcigge/epy45iukmd9tg58y?singleDoc# 《技术报告》
