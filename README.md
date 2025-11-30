@@ -44,7 +44,7 @@ ros2 launch camera_sim_pkg camera.launch.py
 ### 运行vision_node（含参数调试）
 在第二个终端运行
 ```bash
-ros2 run my_package vision_node --ros-args -p vision.min_radius:=15 -p vision.max_radius:=80 -p 
+ros2 run my_package vision_node --ros-args -p min_radius:=20 -p max_radius:=100 -p dp:=1.5 -p min_dist_ratio:=8.0 -p param1:=100 -p param2:=30
 ```
 或
 ```bash
@@ -76,11 +76,22 @@ ros2 launch referee_pkg referee_pkg_launch.xml TeamName:="TEAM9"
 ### 关键参数
 
 · vision.min_radius：检测圆环的最小半径（默认：20像素）
+
 · vision.max_radius：检测圆环的最大半径（默认：100像素）
+
+· dp：累加器分辨率与图像分辨率的反比（默认：1.5）
+
+· min_dist_ratio：最小圆心距离与图像高度的比例（默认：8.0）
+
+· param1： 边缘检测阈值（值越小，检测到的边缘越多）（默认：100）
+
+· param2： 累加器阈值（值越小，检测到的圆环越多）（默认：30）
 
 ### 检测逻辑
 
 · 检测到2个或更多圆环时，选择半径最大的两个分别作为外圆和内圆
+
 · 只检测到1个圆环时，将该圆环同时作为外圆和内圆发布
+
 · 未检测到圆环时，发布空消息
 
