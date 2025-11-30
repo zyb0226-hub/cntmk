@@ -1,32 +1,6 @@
-shooter:
-  # 弹道预测参数
-  ballistics:
-    projectile_speed: 15.0    # 弹丸速度 (m/s) - 关键参数！
-    gravity: 9.8              # 重力加速度 (m/s^2)
-
-  # 最低置信度阈值
-  min_confidence: 0.7         
-  
-  # 伺服控制参数 (控制云台转动)
-  servo:
-    max_pan_speed: 5.0        # 最大水平转速 (rad/s)
-    max_tilt_speed: 3.0       # 最大俯仰转速 (rad/s)
-    aim_threshold: 0.015      # 瞄准阈值，小于这个值才发射 (rad)
-  
-  # 击打规则
-  firing:
-    cooldown_time: 0.3        # 发射冷却时间 (s)
-
-  # 动态预测参数
-  prediction:
-    velocity_smoothing: 0.4   # 速度平滑系数
-    prediction_time: 0.15     # 预测时间 (s)
-    enable_prediction: true   # 预测开关，是否启用动态预测
-  
-  # 调试模式
-  debug: true
-  log_aiming: true
-
-vision:
-  min_radius: 20
-  max_radius: 100
+min_radius: 20  # 圆环最小半径
+max_radius: 100  # 圆环最大半径
+dp: 1.5  # 累加器分辨率与图像分辨率的反比
+min_dist_ratio: 8.0  # 最小圆心距离与图像高度的比例
+param1: 100  # 边缘检测阈值（值越小，检测到的边缘越多）
+param2: 30  # 累加器阈值（值越小，检测到的圆环越多）
