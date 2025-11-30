@@ -22,16 +22,28 @@ private:
     
     int min_radius_ = 20;
     int max_radius_ = 100;
+    double dp_ = 1.2;
+    double min_dist_ratio_ = 4.0;
+    int param1_ = 90;
+    int param2_ = 30;
 
     void setup_parameters()
     {
     // 声明参数
-    this->declare_parameter<int>("vision.min_radius", 20);
-    this->declare_parameter<int>("vision.max_radius", 100);
-    
+    this->declare_parameter<int>("min_radius", 20);
+    this->declare_parameter<int>("max_radius", 100);
+    this->declare_parameter<double>("dp", 1.2);
+    this->declare_parameter<double>("min_dist_ratio", 4.0);
+    this->declare_parameter<int>("param1", 90);
+    this->declare_parameter<int>("param2", 30);  
+
     // 获取参数值
-    min_radius_ = this->get_parameter("vision.min_radius").as_int();
-    max_radius_ = this->get_parameter("vision.max_radius").as_int();
+    min_radius_ = this->get_parameter("min_radius").as_int();
+    max_radius_ = this->get_parameter("max_radius").as_int();
+    dp_ = this->get_parameter("dp").as_double();
+    min_dist_ratio_ = this->get_parameter("min_dist_ratio").as_double();
+    param1_ = this->get_parameter("param1").as_int();
+    param2_ = this->get_parameter("param2").as_int();
     }
 
     void setup_communications()
@@ -76,14 +88,18 @@ private:
 	    
 	// 高斯模糊
 	cv::GaussianBlur(gray, gray, cv::Size(3, 3), 0);
+
+	// 计算最小圆心距离
+	double min_dist = gray.rows / min_dist_ratio_;
 	    
 	// 霍夫圆检测
-	cv::HoughCircles(gray, circles, cv::HOUGH_GRADIENT, 1.2,
-		        gray.rows/4,  // 最小圆心间距
-		        90,          // 边缘检测阈值
-		        30,           // 累加器阈值
-		        min_radius_,  // 最小半径
-		        max_radius_); // 最大半径
+	cv::HoughCircles(gray, circles, cv::HOUGH_GRADIENT, 
+				dp_,			// 累加器分辨率与图像分辨率的反比
+		        min_dist,  		// 最小圆心间距
+		        param1_,        // 边缘检测阈值
+		        param2_,        // 累加器阈值
+		        min_radius_,  	// 最小半径
+		        max_radius_); 	// 最大半径
 	    
 	return circles;
     }
