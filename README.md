@@ -63,13 +63,19 @@ ros2 launch referee_pkg referee_pkg_launch.xml TeamName:="TEAM9"
 
 1. 图像获取：订阅 /camera/image_raw 话题获取原始图像
 2. 预处理：
+   
    · 转换为灰度图像
+   
    · 应用高斯模糊降噪
 3. 圆环检测：
+
    · 使用霍夫梯度法检测圆环
+   
    · 根据参数过滤半径范围内的圆
 4. 结果处理：
+
    · 按半径大小排序检测到的圆环
+   
    · 选择最大的两个圆作为外圆和内圆
 5. 消息发布：将检测结果发布到 /vision/target 话题
 
