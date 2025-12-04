@@ -166,13 +166,13 @@ private:
         if (circles.size() >= 2) {
             // 按半径排序，大的为外圆，小的为内圆
             std::vector<cv::Vec3f> sorted_circles = circles;
-            std::sort(sorted_circles.begin(), sorted_circles.end(),
-                    [](const cv::Vec3f& a, const cv::Vec3f& b) { return a[2] > b[2]; });
-            
+			if (circles[0][2] < circles[1][2]) {
+				std::swap(circles[0], circles[1]);
+			}
             // 外圆（半径大的）
-            create_circle_object(multi_obj, sorted_circles[0], "Ring_red");
+            create_circle_object(multi_obj, circles[0], "Ring_red");
             // 内圆（半径小的）
-            create_circle_object(multi_obj, sorted_circles[1], "Ring_red");
+            create_circle_object(multi_obj, circles[1], "Ring_red");
             
             multi_obj.num_objects = 2;
             RCLCPP_INFO(this->get_logger(), "发布内外圆检测结果");
